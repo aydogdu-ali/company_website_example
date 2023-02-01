@@ -8,48 +8,65 @@ body {
   font-weight: 400;
   line-height: 1.2; }
 
-/*header css*/
-.header {
-  min-height: 8rem;
-  background-color: aqua;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+.button {
+  padding: 1.25rem 3rem;
+  text-transform: capitalize;
+  border-radius: 5rem;
+  background-color: #3dbe71;
+  color: #fff;
+  border: none;
+  font-size: 0.7rem;
+  letter-spacing: 2px;
+  cursor: pointer;
+  outline: none;
   position: relative; }
+  .button span {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.2s ease-in; }
+    .button span:last-child {
+      top: 100%;
+      transform: translate(-50%, 0);
+      opacity: 0; }
+  .button:hover, .button:active {
+    background-color: #5db380; }
+    .button:hover span, .button:active span {
+      opacity: 0; }
+      .button:hover span:last-child, .button:active span:last-child {
+        top: 50%;
+        transform: translate(-50%, -50%);
+        opacity: 1; }
 
 .navigation {
   width: 75%;
   display: flex;
-  justify-content: space-between;
-  background-color: blueviolet; }
-
-.navigation__nav {
-  flex-basis: 80%;
-  background-color: coral; }
-
-.navigation__list {
-  list-style: none;
-  display: flex;
   justify-content: space-between; }
+  .navigation_nav {
+    flex-basis: 80%; }
+  .navigation__list {
+    list-style: none;
+    display: flex;
+    justify-content: space-around; }
+  .navigation__link, .navigation__link:link, .navigation__link:visited {
+    font-size: 0.8rem;
+    color: rgba(0, 0, 0, 0.7);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600; }
 
-.navigation__link,
-.navigation__link,
-.navigation__link:visited {
-  font-size: 0.8rem;
-  color: rgba(0, 0, 0, 0.7);
-  text-decoration: none;
-  text-transform: uppercase;
-  font-weight: 600; }
-
-.header__social-nav {
-  position: absolute;
-  right: 10%;
-  top: 2%; }
-
-.sosical-nav__list {
+.socical-nav__list {
   list-style: none;
-  display: flex;
-  background-color: brown; }
+  display: flex; }
 
-.buton {
-  background-color: rgba(237, 166, 207, 0.9); }
+.header {
+  min-height: 8rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative; }
+  .header__social-nav {
+    position: absolute;
+    right: 10%;
+    top: 2%; }
