@@ -2,38 +2,28 @@
   width: 75%;
   display: flex;
   justify-content: space-between;
- 
 
   &_nav {
-  flex-basis: 80%;
+    flex-basis: 80%;
   }
 
-  &__list{
- list-style: none;
+  &__list {
+    list-style: none;
 
-  display: flex;
-  justify-content: space-between;
+    display: flex;
+    justify-content: space-around;
   }
 
   &__item {
-
-
   }
 
-&__link,
-&__link:link,
-&__link:visited {
-  font-size: 0.8rem;
-  color: rgba(black, 0.7);
-  text-decoration: none;
-  text-transform: uppercase;
-  font-weight: 600;
+  &__link,
+  &__link:link,
+  &__link:visited {
+    font-size: 0.8rem;
+    color: rgba(black, 0.7);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
 }
-
-
-
-}
-
-
-
-
