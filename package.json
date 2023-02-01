@@ -1,0 +1,26 @@
+{
+  "name": "company_website_example",
+  "version": "1.0.0",
+  "description": "company_website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass":"node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aydogdu-ali/company_website_example.git"
+  },
+  "keywords": [
+    "software"
+  ],
+  "author": "software",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aydogdu-ali/company_website_example/issues"
+  },
+  "homepage": "https://github.com/aydogdu-ali/company_website_example#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0"
+  }
+}

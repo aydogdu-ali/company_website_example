@@ -1,79 +1,55 @@
-/* sIFIRLAMA İŞLEMİ YAPTIM*/
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-  line-height: 1.2;
-}
+  line-height: 1.2; }
 
 /*header css*/
-
 .header {
   min-height: 8rem;
   background-color: aqua;
-
   display: flex;
   justify-content: space-around;
   align-items: center;
-
-  position: relative;
-}
-
-.header__logo {
-}
+  position: relative; }
 
 .navigation {
   width: 75%;
   display: flex;
   justify-content: space-between;
-  background-color: blueviolet;
-}
+  background-color: blueviolet; }
 
 .navigation__nav {
   flex-basis: 80%;
-  background-color: coral;
-}
+  background-color: coral; }
 
 .navigation__list {
   list-style: none;
-
   display: flex;
-  justify-content: space-between;
-}
-
-.navigation__item {
-}
+  justify-content: space-between; }
 
 .navigation__link,
 .navigation__link,
 .navigation__link:visited {
   font-size: 0.8rem;
-  color: rgba(black, 0.7);
+  color: rgba(0, 0, 0, 0.7);
   text-decoration: none;
   text-transform: uppercase;
-  font-weight: 600;
-}
+  font-weight: 600; }
 
 .header__social-nav {
-position: absolute;
-right: 10%;
-top: 2%;
-
-}
-.sosical-nav {
-}
+  position: absolute;
+  right: 10%;
+  top: 2%; }
 
 .sosical-nav__list {
   list-style: none;
   display: flex;
-  background-color: brown;
-}
-.sosical-nav__item {
-}
-.sosical-nav__links {
-}
+  background-color: brown; }
+
+.buton {
+  background-color: rgba(237, 166, 207, 0.9); }
