@@ -97,3 +97,25 @@ body {
     position: absolute;
     right: 10%;
     top: 2%; }
+
+.sec-info {
+  height: 45rem;
+  padding: 4rem 6rem 1rem 6rem;
+  background-color: brown;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .sec-info__container {
+    display: flex; }
+  .sec-info__left {
+    flex: 0 0 50%;
+    background-color: aqua; }
+  .sec-info__right {
+    flex: 0 0 50%;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .sec-info__img {
+    width: 90%;
+    height: 90%; }
