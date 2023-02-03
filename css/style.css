@@ -19,8 +19,22 @@ body {
   .t1 span {
     display: block; }
 
+.t2 {
+  font-family: "Roboto";
+  font-size: 2rem;
+  color: #17015d;
+  margin-bottom: 0.2rem; }
+
+.t3 {
+  font-size: 1.2rem;
+  color: #17015d; }
+
 .t4 {
   font-size: 1.1rem; }
+
+.s1 {
+  font-size: 0.9rem;
+  color: #909090; }
 
 .button {
   padding: 1.25rem 3rem;
@@ -139,3 +153,36 @@ body {
   .sec-info__img {
     width: 90%;
     height: 90%; }
+
+.sec-features {
+  min-height: 50rem;
+  padding: 4rem 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center; }
+  .sec-features__top {
+    width: 70%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; }
+  .sec-features__bottom {
+    min-height: 32rem;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+  .sec-features__feature {
+    height: 13rem;
+    width: 27%;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; }
+  .sec-features__icon {
+    width: 2.5rem;
+    height: 2.5rem;
+    fill: #3dbe71; }
