@@ -6,7 +6,21 @@
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-  line-height: 1.2; }
+  line-height: 1.2;
+  color: #504f4f; }
+
+.t1 {
+  font-family: "Roboto";
+  margin-top: 2rem;
+  color: #3b17b3;
+  font-size: 2.3rem;
+  font-weight: 700;
+  line-height: 3.3rem; }
+  .t1 span {
+    display: block; }
+
+.t4 {
+  font-size: 1.1rem; }
 
 .button {
   padding: 1.25rem 3rem;
@@ -38,6 +52,9 @@ body {
         top: 50%;
         transform: translate(-50%, -50%);
         opacity: 1; }
+  .button--midde {
+    font-size: 0.9rem;
+    padding: 1.5rem 7rem; }
 
 .navigation {
   width: 75%;
@@ -101,18 +118,21 @@ body {
 .sec-info {
   height: 45rem;
   padding: 4rem 6rem 1rem 6rem;
-  background-color: brown;
   display: flex;
   justify-content: center;
   align-items: center; }
   .sec-info__container {
+    height: 100%;
     display: flex; }
   .sec-info__left {
     flex: 0 0 50%;
-    background-color: aqua; }
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start; }
   .sec-info__right {
     flex: 0 0 50%;
-    background-color: blueviolet;
     display: flex;
     justify-content: center;
     align-items: center; }
