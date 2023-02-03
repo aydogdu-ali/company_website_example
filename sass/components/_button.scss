@@ -2,8 +2,8 @@
   padding: 1.25rem 3rem;
   text-transform: capitalize;
   border-radius: 5rem;
-  background-color: #3dbe71;
-  color: #fff;
+  background-color:$color-primary;
+  color: $color-white;
   border: none;
   font-size: 0.7rem;
   letter-spacing: 2px;
@@ -28,7 +28,7 @@
 
   &:hover,
   &:active {
-    background-color: #5db380;
+    background-color:$color-primary;
     span {
       opacity: 0;
       &:last-child {

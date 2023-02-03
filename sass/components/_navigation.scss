@@ -32,14 +32,14 @@
       bottom: -4px;
       width: 0%;
       height: 3px;
-      background-color: #3dbe71;
+      background-color:$color-primary;
       transition: all 0.2s ease-out;
     }
 
     &:link,
     &:visited {
       font-size: 0.8rem;
-      color: rgba(black, 0.7);
+      color: rgba($color-black, 0.7);
       text-decoration: none;
       text-transform: uppercase;
       font-weight: 600;
