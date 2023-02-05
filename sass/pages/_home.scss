@@ -181,3 +181,43 @@
 
 
 }
+
+.sec-counter{
+  height: 40rem;
+  padding:  3rem 6rem;
+ background-image: linear-gradient( to bottom,
+  rgba(#e3a396, 0.6), rgba(#e3a396, 0.5)
+  ), url("../images/counter-bg-2000.jpg");
+ background-size: cover;
+  display: flex;
+  justify-content: center;
+
+  &__container{
+    width: 80%;
+   
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__top{
+    width: 85%;
+    text-align: center;
+ 
+display: flex;
+flex-direction: column;
+align-items: center;
+
+
+  }
+
+  &__bottom{
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+  }
+
+}
