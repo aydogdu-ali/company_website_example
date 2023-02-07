@@ -78,6 +78,9 @@ body {
   .button--midde {
     font-size: 0.9rem;
     padding: 1.5rem 7rem; }
+  .button--big {
+    font-size: 0.9rem;
+    padding: 2rem 8rem; }
   .button--pink {
     background-color: rbga(#ee4266, 0.9); }
     .button--pink:hover {
@@ -419,3 +422,19 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center; }
+
+.sec-idea {
+  height: 35rem;
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.5)), url("../images/sec-idea-bg-2000.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .sec-idea__text {
+    font-family: "Roboto";
+    font-weight: 200;
+    font-size: 3.5rem;
+    color: #fff;
+    letter-spacing: 2px; }
