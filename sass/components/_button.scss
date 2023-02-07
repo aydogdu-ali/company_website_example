@@ -43,4 +43,23 @@
     font-size: 0.9rem;
     padding: 1.5rem 7rem;
   }
+
+  &--pink{
+background-color: rbga(#ee4266, 0.9);
+
+  &:hover{
+     background-color: rbga(#ee4266, 0.5);   
+    }
 }
+  
+
+   &--purple{
+    background-color: rbga(#540d6e, 0.9);
+
+    &:hover{
+       background-color: rbga(#540d6e, 0.5);
+    }
+  }
+
+}
+

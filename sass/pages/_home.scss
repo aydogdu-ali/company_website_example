@@ -226,17 +226,18 @@ align-items: center;
 
   height: 55rem;
   padding: 4rem 5rem 2rem 5rem;
-  background-color: rgb(238, 41, 6);
+   background-color: #edeeee;
+ 
 
 display: flex;
 flex-direction: column;
-justify-content:center;
+justify-content:space-between;
 align-items: center;
 
 &__cards{
   flex: 0 90%;
   width: 100%;
-  background-color: aqua;
+  
 
   display: flex;
   justify-content: space-between;

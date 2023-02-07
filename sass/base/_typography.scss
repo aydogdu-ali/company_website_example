@@ -16,6 +16,10 @@
   font-size: 2rem;
   color:$color-secondary;
   margin-bottom: 0.2rem;
+
+  &--green{
+    color:$color-primary
+  }
 }
 .t3 {
   font-size: 1.2rem;
