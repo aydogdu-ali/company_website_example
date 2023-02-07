@@ -305,3 +305,19 @@ body {
     width: 100%;
     display: flex;
     justify-content: space-between; }
+
+.sec-card {
+  height: 55rem;
+  padding: 4rem 5rem 2rem 5rem;
+  background-color: #ee2906;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .sec-card__cards {
+    flex: 0 90%;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
