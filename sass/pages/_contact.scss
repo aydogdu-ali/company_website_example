@@ -1,0 +1,29 @@
+.container-contact{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+
+
+.contact{
+height: 40rem;
+width: 80%;
+
+
+
+display:flex;
+justify-content: center;
+align-items: center;
+
+    &__left{
+     
+        flex: 0 60%;
+    }
+    &__right{
+        height: 60%;
+        flex: 0 40%;
+        background-color: rgba($color-black, 0.8)
+    }
+}
