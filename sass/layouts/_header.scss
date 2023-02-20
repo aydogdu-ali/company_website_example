@@ -9,12 +9,40 @@
 
   position: relative;
 
-  // &__logo {
-  // }
+  &__logo {
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    z-index: 5;
+    transform: translate(-50%,-50%);
+
+@media screen  and (max-width:768px){
+  left:10%;
+  
+}
+
+@media screen  and (max-width:480px){
+  left:20%;
+  
+}
+
+@media screen  and (max-width:375px){
+  left:30%;
+  
+}
+
+
+  }
 
   &__social-nav {
     position: absolute;
     right: 10%;
     top: 2%;
+    @media screen  and (max-width:768px){
+  right:1%;
+  
+}
   }
+
+
 }

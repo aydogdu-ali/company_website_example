@@ -4,9 +4,31 @@
   box-sizing: border-box;
 }
 
+html{
+
+  @media screen and (max-width:1024px) {
+    font-size: 14px;
+    
+  }
+}
+
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   line-height: 1.2;
   color:$color-font-1;
 }
+
+/*
+
+
+
+mobile dikey konum - (0-375px)
+mobile yatay konum - (376-480px)
+
+tablet dikey konum - (481-768px)
+tablet yatay konum ve laptop ( 769-1024px)
+masaüstü - (1025px-1200px)
+
+
+*/
